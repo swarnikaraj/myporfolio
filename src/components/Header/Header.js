@@ -29,7 +29,7 @@ const Header = () =>  (
        </Link>
      </li>
      <li>
-       <Link href="files/cv.pdf">
+       <Link href="files/cv.pdf" target='target_blank'>
        <NavLink>Resume</NavLink>
        </Link>
      </li>
@@ -37,14 +37,14 @@ const Header = () =>  (
 
    </Div2>
    <Div3>
-     <SocialIcons>
-       <AiFillGithub href='https://github.com/swarnikaraj/'/>
+     <SocialIcons href='https://github.com/swarnikaraj/' target='_blank'>
+       <AiFillGithub/>
      </SocialIcons>
-     <SocialIcons>
-       <AiFillLinkedin href='https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/'/>
+     <SocialIcons href='https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/' target='_blank'>
+       <AiFillLinkedin/>
      </SocialIcons>
-     <SocialIcons>
-       <AiFillInstagram href='https://www.instagram.com/swarnikarajsingh/'/>
+     <SocialIcons href='https://www.instagram.com/swarnikarajsingh/' target='_blank'>
+       <AiFillInstagram/>
      </SocialIcons>
    </Div3>
  </Container>

@@ -21,10 +21,10 @@ export const projects = [
   },
   {
     title: 'Block Chain App',
-    description: "This is block chain based application to exchange ethereum. ",
+    description: "This is a block chain based application to exchange ethereum. ",
       image: '/images/3.png',
       tags: ['React', ' Solidity', 'Block Chain'],
-    source: 'https://google.com',
+    source: 'https://github.com/swarnikaraj/blockchain_crypto_gradient',
     visit: 'https://blockchain-ethereum.vercel.app/',
     id: 2,
   },
