@@ -17,13 +17,10 @@ const Footer = () => {
           <LinkTitle>Email</LinkTitle>
           <LinkItem href="mailto:swarnikarajsingh@gmail.com">swarnikarajsingh@gmail.com</LinkItem>
         </LinkColumn>
-        {/* <LinkColumn>
-          <LinkTitle>Whatsapp</LinkTitle>
-          <LinkItem href="https://wa.me/9473146034?text=Hi%27,%20like%20to%20chat%20with%20you">+91 9473146034</LinkItem>
-        </LinkColumn> */}
+      
         <LinkColumn>
           <LinkTitle>Skype</LinkTitle>
-          <LinkItem href="https://join.skype.com/invite/ykTStEckcfWM">swarnikarajsingh</LinkItem>
+          <LinkItem href="https://join.skype.com/invite/ykTStEckcfWM" target='_blank'>swarnikarajsingh</LinkItem>
         </LinkColumn>
 
 
@@ -32,15 +29,16 @@ const Footer = () => {
         <CompanyContainer>
           <Slogan>Code talks</Slogan>
         </CompanyContainer>
-        <SocialIconsContainer>
-        <SocialIcons>
-       <AiFillGithub href='https://github.com/swarnikaraj/'/>
+        <SocialIconsContainer >
+        <SocialIcons href='https://github.com/swarnikaraj/' target='_blank'>
+       <AiFillGithub />
      </SocialIcons>
-     <SocialIcons>
-       <AiFillLinkedin href='https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/'/>
+    
+     <SocialIcons href='https://www.linkedin.com/in/swarnnika-raj-singh-a6731914b/' target='_blank'>
+       <AiFillLinkedin  />
      </SocialIcons>
-     <SocialIcons>
-       <AiFillInstagram href='https://www.instagram.com/swarnikarajsingh/'/>
+     <SocialIcons href='https://www.instagram.com/swarnikarajsingh/' target='_blank'>
+       <AiFillInstagram />
      </SocialIcons>
      </SocialIconsContainer>
       </SocialIconsContainer>
