@@ -1,6 +1,7 @@
 import React from 'react';
 import { findDOMNode } from 'react-dom/cjs/react-dom.development';
 import { DiAtlassian, DiFirebase, DiHtml5Connectivity, DiMaterializecss, DiNodejs, DiReact, DiSwift, DiZend } from 'react-icons/di';
+import {SiEthereum} from 'react-icons/si'
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -46,7 +47,7 @@ const Technologies = () =>  (
       </ListContainer>
     </ListItem>
     <ListItem>
-    <DiHtml5Connectivity size='3rem' />
+    <SiEthereum size='3rem' />
       <ListContainer>
         <ListTitle>Block-Chain</ListTitle>
         <ListParagraph>
