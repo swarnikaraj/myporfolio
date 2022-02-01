@@ -5,6 +5,7 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons ,Span} from './HeaderStyles';
 
+
 const Header = () =>  (
  <Container>
    <Div1>
@@ -29,9 +30,9 @@ const Header = () =>  (
        </Link>
      </li>
      <li>
-       <Link href="files/cv.pdf" target='target_blank'>
-       <NavLink>Resume</NavLink>
-       </Link>
+     
+       <NavLink target='target_blank'  rel="noopener noreferrer"  href='files/cv.pdf'>Resume</NavLink>
+    
      </li>
      
 
