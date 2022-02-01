@@ -32,8 +32,11 @@ const Timeline = () => {
     }
   }
 
+  
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
+
+
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -45,9 +48,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>Interests</SectionTitle>
-      {/* <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-      </SectionText> */}
+     
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
