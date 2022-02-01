@@ -7,15 +7,31 @@ import Timeline from '../components/TimeLine/TimeLine';
 import { TimeLineData } from '../constants/constants';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import { Mypic } from '../components/mypic';
 
 
 const Home = () => {
+  const style={
+    "display":'flex',
+    "padding":'10px'
+    
+
+     
+
+  }
   return (
     <Layout>
-       <Section grid> 
+       {/* <Section grid>  */}
+      
+         <div style={style}>
         <Hero />
-          <BgAnimation />  
-      </Section> 
+        <Mypic/>
+        </div>  
+          
+       {/* </Section>  */}
+
+       
+      
       <Projects/>
       
      

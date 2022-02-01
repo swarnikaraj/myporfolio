@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { Mypic } from '../mypic';
+
 const BackgroundAnimation = () => (
   <div>
-    <svg
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,7 +360,9 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+    </svg> */}
+
+    <Mypic/>
   </div>
 );
 
