@@ -3,7 +3,7 @@ import React from 'react';
 import { Mypic } from '../mypic';
 
 const BackgroundAnimation = () => (
-  <div>
+  <div >
     {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"

@@ -20,9 +20,9 @@ display:flex;
   
 
  textAlignment:center;
- textAlignment:center;
  
- $ >img{margin:auto;}
+ 
+ $ >img{margin:auto; }
 
 `
 

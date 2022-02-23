@@ -20,7 +20,7 @@ const Hero = (props) => (
        Algorithms.
         
     </SectionText>
-    <Button  onClick={()=>window.scroll(0,700)}>
+    <Button  onClick={()=>window.scrollTo(0,700)}>
     Explore
       
       </Button>
