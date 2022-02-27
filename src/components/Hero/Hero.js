@@ -15,7 +15,7 @@ const Hero = (props) => (
 
     </SectionTitle>
     <SectionText>
-      A passionate full stack developer and An aspiring etherium blockchain developer with a problem solving mindset, 
+      A passionate full stack developer and An aspiring ethereum blockchain developer with a problem solving mindset, 
         well trained in MERN stack, Data structures and 
        Algorithms.
         
